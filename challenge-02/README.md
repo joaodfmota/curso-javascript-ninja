@@ -43,9 +43,8 @@ Crie uma função com as seguintes características:
 function threeArgs(arg1, arg2, arg3) {
     if(arg1 === undefined || arg2 === undefined || arg3 === undefined ) {
 	    return 'Preencha todos os valores corretamente!';
-    } else {
-    	return arg1 * arg2 * arg3 + 2;  
-	}
+    }
+    return ( arg1 * arg2 * arg3 ) + 2;  
 }
 
 // Invoque a função criada acima, passando só dois números como argumento.
